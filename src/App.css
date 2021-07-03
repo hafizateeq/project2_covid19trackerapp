@@ -1,0 +1,33 @@
+body{
+  background-color: #000000;
+}
+/* .mainHeading{
+  margin-top: 36px;
+  color: #D32001;
+  margin-left: -730px;
+} */
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+.headimg{ 
+  height: 100px;
+  width: 200px;
+} 
+.totalCase{
+  color: blue;
+}
+.recovered{
+  color: green;
+}
+.deaths{
+  color: #D32001;
+}
+
+@media (max-width: 770px) {
+  .header{
+    flex-direction: column;
+  }
+ 
+}
